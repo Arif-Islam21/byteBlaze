@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+// import animationSvg from "../../../public/animate.svg";
 
 const Hero = () => {
   return (
     <div>
-      <div className="hero min-h-[calc(100vh-135px)] bg-base-200">
+      <div className="hero relative  min-h-[calc(100vh-135px)] bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-4xl font-bold">
@@ -44,6 +45,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        {/* <img
+          className="absolute -top-32 left-0 w-full"
+          src={animationSvg}
+          alt=""
+        /> */}
       </div>
     </div>
   );

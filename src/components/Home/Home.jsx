@@ -3,7 +3,7 @@ import "./animation.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="relative">
       <Hero></Hero>
     </div>
   );
