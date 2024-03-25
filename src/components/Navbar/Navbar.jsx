@@ -19,10 +19,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container mx-auto">
-      <div className="navbar bg-base-100">
+    <div className="">
+      <div className="navbar px-12  shadow-xl absolute bg-base-100">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost gap-0 font-bold text-3xl text-primary">
+            Bite<span className="text-secondary">Blaze</span>
+          </a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
@@ -31,6 +33,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink to={"/blogs"}>
               <button className="btn mx-2">Blogs</button>
+            </NavLink>
+            <NavLink to={"/bookmarks"}>
+              <button className="btn mx-2">Bookmarks</button>
             </NavLink>
           </ul>
           <label className="cursor-pointer grid place-items-center">
