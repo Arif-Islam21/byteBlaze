@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-// import animationSvg from "../../../public/animate.svg";
+import animationSvg from "../../../public/waveanimation.svg";
 
 const Hero = () => {
   return (
@@ -45,11 +45,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        {/* <img
-          className="absolute -top-32 left-0 w-full"
+        <img
+          className="absolute top-0 left-0 w-full"
           src={animationSvg}
           alt=""
-        /> */}
+        />
       </div>
     </div>
   );
